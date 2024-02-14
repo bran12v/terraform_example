@@ -12,5 +12,5 @@ provider "aws" {
 }
 
 resource "aws_vpc" "example" {
-  cidr_block = "1.123.234.21/22"
+  cidr_block = "1.123.234.0/22"
 }
